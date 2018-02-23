@@ -7,8 +7,6 @@ Hey - hi - over here. So listen. I want to tell you something that's pretty impo
 
 Okay. With that out of the way let's do this.
 
-[logo]: https://giphy.com/embed/qDPg6HNz2NfAk "Do it!"
-
 Git clone this repo.
 
 ```
