@@ -7,9 +7,7 @@ Hey - hi - over here. So listen. I want to tell you something that's pretty impo
 
 Okay. With that out of the way let's do this.
 
-<dl>
-<iframe src="https://giphy.com/embed/qDPg6HNz2NfAk" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/reaction-qDPg6HNz2NfAk">via GIPHY</a></p>
-</dl>
+[logo]: https://giphy.com/embed/qDPg6HNz2NfAk "Do it!"
 
 Git clone this repo.
 
