@@ -430,6 +430,11 @@ Resources:
   InstanceSecurityGroup:
     Properties:
       GroupDescription: Enable SSH on the inbound port
+      SecurityGroupEgress:
+        - CidrIp: 34.37.1.28/24
+          FromPort: '22'
+          IpProtocol: tcp
+          ToPort: '22'
       SecurityGroupIngress:
         - CidrIp: 34.23.100.0/24 
           FromPort: '0'
