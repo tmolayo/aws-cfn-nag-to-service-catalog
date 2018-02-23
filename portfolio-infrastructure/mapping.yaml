@@ -1,0 +1,20 @@
+name: COMPANY_CENTRALARCH_BU_IAAS 
+description: Company Central IT approved IAAS portfolio BU
+owner: company_bu_iaas_portfolio_owner@company.com
+products:
+- name: company-EC2-P6
+  template: product-company-ec2-p6.yml
+  owner: company_ec2_pattern_owners@company.com
+  description: Creates a multi-tenant ec2 instance with KMS encrypted root and data volumes and dynamic public ip address. Allowed data classifications include public non-material.
+accounts:
+- identifier: Sample AWS Account
+  number: 111111111111
+- identifier: Another
+  number: 111111111112
+tags:
+- Key: ProductCode 
+  Value: /aws/bu/iaas/ec2/company-ec2-p6
+- Key: ProductWiki
+  Value: https://w.company.com/aws/bu/iaas/ec2/company-ec2-p6/README.md
+principals:
+- user/demouser 
