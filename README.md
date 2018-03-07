@@ -55,7 +55,7 @@ bash-3.2$ tree ./central-service-catalog/
 ├── lambda-cloudformation.yaml
 ├── portfolio-infrastructure
 │   ├── mapping.yaml
-│   └── product-citi-ec2-p6.yml
+│   └── product-company-ec2-p6.yml
 └── scripts
     ├── requirements.txt
     └── sync-catalog.py
